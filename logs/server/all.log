@@ -1,0 +1,53 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-24T14:38:52.932Z"}
+info: Connected to the database. {"timestamp":"2023-01-24T14:39:04.639Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 8 characters long 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-24T14:59:48.378Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\project\bookStore_backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\project\bookStore_backend\src\services\/user.service.js:27:23)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/signin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-24T15:01:25.268Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\project\bookStore_backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\project\bookStore_backend\src\services\/user.service.js:27:23)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/signin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-24T15:06:47.761Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (D:\project\bookStore_backend\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (D:\project\bookStore_backend\src\services\/user.service.js:27:23)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/signin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-24T15:06:50.139Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-24T15:07:19.740Z"}
+info: Connected to the database. {"timestamp":"2023-01-24T15:07:28.250Z"}
