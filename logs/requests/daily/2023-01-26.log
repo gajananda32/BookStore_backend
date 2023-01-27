@@ -1,0 +1,30 @@
+info: ::1 - - [26/Jan/2023:13:49:18 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:49:18 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:49:18 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:49:18 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:49:18 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:49:18 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:49:18 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:49:18 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:49:32 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:58:43 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:14:12:32 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:14:13:19 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 60 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:14:21:44 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 89 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:14:23:09 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 312 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:14:23:49 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 59 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+

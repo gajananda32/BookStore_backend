@@ -1,0 +1,214 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T02:30:49.742Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T02:30:52.563Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T02:34:50.460Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T02:34:53.146Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T03:24:55.889Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T03:24:58.659Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '_id')
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:8:27)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/63d0d0454a46ce48809c129f 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:13:22.914Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '_id')
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:8:27)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/63d0d0454a46ce48809c129f 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:14:11.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T04:23:11.705Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T04:23:19.227Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T04:25:29.307Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T04:25:36.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T04:31:21.186Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T04:31:29.208Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T04:32:22.836Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T04:32:30.736Z"}
+error: 
+    status - 500 
+    message - TypeError: #<Object> is not a function
+    at CoreDocumentArray.find (<anonymous>)
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:27:52)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:32:36.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T04:32:58.730Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T04:33:01.331Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T04:33:50.688Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T04:33:58.322Z"}
+error: 
+    status - 500 
+    message - TypeError: cartData.books.findOne is not a function
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:27:52)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:34:07.250Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T04:35:12.504Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T04:35:15.011Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T04:37:08.311Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T04:37:11.186Z"}
+error: 
+    status - 500 
+    message - TypeError: cartData.books.findOne is not a function
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:27:52)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:37:54.833Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T04:40:33.933Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T04:40:36.554Z"}
+error: 
+    status - 500 
+    message - TypeError: #<Object> is not a function
+    at CoreDocumentArray.find (<anonymous>)
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:27:52)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:40:42.365Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T04:41:44.399Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T04:41:52.077Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T04:43:11.505Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T04:43:19.237Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T04:45:50.610Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T04:45:58.317Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'forEach')
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:29:56)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:46:06.823Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T04:46:27.394Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T04:46:32.674Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T04:47:44.801Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T04:47:52.379Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'find')
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:32:45)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:47:57.522Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'find')
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:32:45)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/621589cd05253301a4fda5d9 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:50:21.843Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T04:51:00.251Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T04:51:05.554Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T05:20:08.502Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T05:20:11.142Z"}
+error: 
+    status - 500 
+    message - TypeError: cartService.addBookTocart is not a function
+    at _callee$ (D:\project\bookStore_backend\src\controllers\/cart.controller.js:12:36)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at addToCart (D:\project\bookStore_backend\src\controllers\/cart.controller.js:10:23)
+    at Layer.handle [as handle_request] (D:\project\bookStore_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\bookStore_backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/621589cd05253301a4fda5d9 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T05:20:19.486Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T05:22:04.320Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T05:22:06.947Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T05:23:49.195Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T05:23:52.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T05:28:20.977Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T05:28:23.797Z"}
+error: 
+    status - 500 
+    message - Error: book not exist in cart
+    at _callee2$ (D:\project\bookStore_backend\src\services\/cart.service.js:78:13)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/remove/621589cd05253301a4fda5d9 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T05:30:31.227Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T05:33:11.905Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T05:33:14.608Z"}

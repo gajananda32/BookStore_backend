@@ -47,3 +47,410 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-01-24T15:06:50.139Z"}
+error: uncaughtException: bookRoute is not defined
+ReferenceError: bookRoute is not defined
+    at routes (D:\project\bookStore_backend\src\routes\/index.js:15:23)
+    at Object.<anonymous> (D:\project\bookStore_backend\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (D:\project\bookStore_backend\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (D:\project\bookStore_backend\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Jan 24 2023 21:21:18 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6376},"process":{"argv":["node","D:\\project\\bookStore_backend\\src\\index.js"],"cwd":"D:\\project\\bookStore_backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19130304,"external":20630846,"heapTotal":92958720,"heapUsed":59278088,"rss":127987712},"pid":1400,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: bookRoute is not defined\n    at routes (D:\\project\\bookStore_backend\\src\\routes\\/index.js:15:23)\n    at Object.<anonymous> (D:\\project\\bookStore_backend\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (D:\\project\\bookStore_backend\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (D:\\project\\bookStore_backend\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\project\\bookStore_backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-01-24T15:51:18.981Z","trace":[{"column":23,"file":"D:\\project\\bookStore_backend\\src\\routes\\/index.js","function":"routes","line":15,"method":null,"native":false},{"column":38,"file":"D:\\project\\bookStore_backend\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"D:\\project\\bookStore_backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"D:\\project\\bookStore_backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\project\\bookStore_backend\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: bookstore is not defined
+    at _callee$ (D:\project\bookStore_backend\src\services\/book.service.js:4:28)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAllBooks (D:\project\bookStore_backend\src\services\/book.service.js:4:25)
+    at _callee$ (D:\project\bookStore_backend\src\controllers\/book.controller.js:12:36)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAllBooks (D:\project\bookStore_backend\src\controllers\/book.controller.js:10:25)
+    at Layer.handle [as handle_request] (D:\project\bookStore_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\bookStore_backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\project\bookStore_backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\project\bookStore_backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\project\bookStore_backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\project\bookStore_backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project\bookStore_backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project\bookStore_backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project\bookStore_backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project\bookStore_backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project\bookStore_backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\project\bookStore_backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project\bookStore_backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project\bookStore_backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\project\bookStore_backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\project\bookStore_backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\project\bookStore_backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project\bookStore_backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\project\bookStore_backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project\bookStore_backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project\bookStore_backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\project\bookStore_backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\project\bookStore_backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\project\bookStore_backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\project\bookStore_backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\project\bookStore_backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\project\bookStore_backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\project\bookStore_backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\project\bookStore_backend\node_modules\raw-body\index.js:231:16) 
+    url - /api/v1/book/allbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-24T16:25:07.286Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'eamil')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215895605253301a4fda5d4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T06:41:47.245Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'eamil')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215895605253301a4fda5d4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T06:43:32.757Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215895605253301a4fda5d4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T06:44:05.477Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215895605253301a4fda5d4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T06:45:20.419Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215895605253301a4fda5d4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T06:45:23.780Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215895605253301a4fda5d4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T06:45:37.552Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215895605253301a4fda5d4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T06:46:00.659Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215895605253301a4fda5d4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T06:52:56.128Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/book/allbook 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-25T07:02:53.757Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/book/allbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-25T07:04:37.306Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "6215888305253301a4fda5" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\project\bookStore_backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project\bookStore_backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215888305253301a4fda5 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T07:09:15.504Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T14:13:19.084Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T14:21:44.828Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is required 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T14:23:49.852Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '_id')
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:8:27)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/63d0d0454a46ce48809c129f 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:13:22.914Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '_id')
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:8:27)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/63d0d0454a46ce48809c129f 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:14:11.804Z"}
+error: 
+    status - 500 
+    message - TypeError: #<Object> is not a function
+    at CoreDocumentArray.find (<anonymous>)
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:27:52)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:32:36.639Z"}
+error: 
+    status - 500 
+    message - TypeError: cartData.books.findOne is not a function
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:27:52)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:34:07.250Z"}
+error: 
+    status - 500 
+    message - TypeError: cartData.books.findOne is not a function
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:27:52)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:37:54.833Z"}
+error: 
+    status - 500 
+    message - TypeError: #<Object> is not a function
+    at CoreDocumentArray.find (<anonymous>)
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:27:52)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:40:42.365Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'forEach')
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:29:56)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:46:06.823Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'find')
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:32:45)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:47:57.522Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'find')
+    at _callee$ (D:\project\bookStore_backend\src\services\/cart.service.js:32:45)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/621589cd05253301a4fda5d9 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T04:50:21.843Z"}
+error: 
+    status - 500 
+    message - TypeError: cartService.addBookTocart is not a function
+    at _callee$ (D:\project\bookStore_backend\src\controllers\/cart.controller.js:12:36)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at addToCart (D:\project\bookStore_backend\src\controllers\/cart.controller.js:10:23)
+    at Layer.handle [as handle_request] (D:\project\bookStore_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\project\bookStore_backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/621589cd05253301a4fda5d9 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T05:20:19.486Z"}
+error: 
+    status - 500 
+    message - Error: book not exist in cart
+    at _callee2$ (D:\project\bookStore_backend\src\services\/cart.service.js:78:13)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/remove/621589cd05253301a4fda5d9 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T05:30:31.227Z"}

@@ -20,3 +20,195 @@ info: ::1 - - [24/Jan/2023:15:13:05 +0000] "PUT /api/v1/users/reset HTTP/1.1" 20
 
 info: ::1 - - [24/Jan/2023:15:13:19 +0000] "PUT /api/v1/users/reset HTTP/1.1" 201 330 "-" "PostmanRuntime/7.30.0"
 
+error: uncaughtException: bookRoute is not defined
+ReferenceError: bookRoute is not defined
+    at routes (D:\project\bookStore_backend\src\routes\/index.js:15:23)
+    at Object.<anonymous> (D:\project\bookStore_backend\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (D:\project\bookStore_backend\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (D:\project\bookStore_backend\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Jan 24 2023 21:21:18 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6376},"process":{"argv":["node","D:\\project\\bookStore_backend\\src\\index.js"],"cwd":"D:\\project\\bookStore_backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19140996,"external":20641578,"heapTotal":92958720,"heapUsed":59480176,"rss":128733184},"pid":1400,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: bookRoute is not defined\n    at routes (D:\\project\\bookStore_backend\\src\\routes\\/index.js:15:23)\n    at Object.<anonymous> (D:\\project\\bookStore_backend\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (D:\\project\\bookStore_backend\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (D:\\project\\bookStore_backend\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\project\\bookStore_backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":23,"file":"D:\\project\\bookStore_backend\\src\\routes\\/index.js","function":"routes","line":15,"method":null,"native":false},{"column":38,"file":"D:\\project\\bookStore_backend\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"D:\\project\\bookStore_backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"D:\\project\\bookStore_backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\project\\bookStore_backend\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::1 - - [24/Jan/2023:15:57:12 +0000] "GET /api/v1/book/allbook HTTP/1.1" 200 65 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [24/Jan/2023:15:58:38 +0000] "GET /api/v1/book/allbook HTTP/1.1" 200 65 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [24/Jan/2023:16:12:23 +0000] "GET /api/v1/book/allbook HTTP/1.1" 200 65 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [24/Jan/2023:16:15:32 +0000] "GET /api/v1/book/allbook HTTP/1.1" 200 65 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [24/Jan/2023:16:25:07 +0000] "GET /api/v1/book/allbook HTTP/1.1" 500 59 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [24/Jan/2023:17:56:30 +0000] "GET /api/v1/book/allbook HTTP/1.1" 200 65 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [24/Jan/2023:18:03:27 +0000] "GET /api/v1/book/allbook HTTP/1.1" 200 65 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [24/Jan/2023:18:03:31 +0000] "GET /api/v1/book/allbook HTTP/1.1" 200 65 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [24/Jan/2023:18:04:38 +0000] "GET /api/v1/book/allbook HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [24/Jan/2023:18:05:17 +0000] "GET /api/v1/book/6215895605253301a4fda5d4 HTTP/1.1" 201 369 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [24/Jan/2023:18:06:30 +0000] "GET /api/v1/book/6215895605253301a4fda5d4 HTTP/1.1" 201 363 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:41:47 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:43:32 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:44:05 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:45:20 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:45:23 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:45:37 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:46:00 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:46:29 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 200 327 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:46:48 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 200 479 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:48:19 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 200 479 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:52:56 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:55:20 +0000] "GET /api/v1/book/allbook HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:56:03 +0000] "POST /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 200 656 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:07:02:53 +0000] "GET /api/v1/book/allbook HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:07:04:00 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:07:04:20 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:07:04:29 +0000] "POST /api/v1/book/allbook HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:07:04:37 +0000] "GET /api/v1/book/allbook HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:07:05:59 +0000] "GET /api/v1/book/allbook HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:07:09:15 +0000] "POST /api/v1/cart/6215888305253301a4fda5 HTTP/1.1" 500 145 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:07:14:27 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 200 656 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:13:49:18 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:49:18 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:49:18 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:49:18 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:49:18 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:49:18 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:49:18 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:49:18 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:49:32 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:13:58:43 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:14:12:32 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:14:13:19 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 60 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [26/Jan/2023:14:21:44 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 89 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:14:23:09 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 312 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [26/Jan/2023:14:23:49 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 59 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Jan/2023:02:45:56 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 200 656 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:13:23 +0000] "POST /api/v1/cart/63d0d0454a46ce48809c129f HTTP/1.1" 500 81 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:14:11 +0000] "POST /api/v1/cart/63d0d0454a46ce48809c129f HTTP/1.1" 500 81 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:14:42 +0000] "GET /api/v1/books/allbook HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:15:16 +0000] "GET /api/v1/book/allbook HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:16:13 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 200 841 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:16:29 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 200 841 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:19:43 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 200 841 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:23:35 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 200 841 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:24:13 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 200 841 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:24:48 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 200 841 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:25:42 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 200 841 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:31:44 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 200 841 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:32:36 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 500 62 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:34:07 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 500 75 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:37:54 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 500 75 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:40:42 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 500 62 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:42:00 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 200 841 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:43:30 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 200 841 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:46:06 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 500 90 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:46:39 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 200 841 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:47:57 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 500 87 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:49:00 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:49:17 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:49:44 +0000] "POST /api/v1/book/allbook HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:49:50 +0000] "GET /api/v1/book/allbook HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:50:15 +0000] "GET /api/v1/cart/621589cd05253301a4fda5d9 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:50:21 +0000] "POST /api/v1/cart/621589cd05253301a4fda5d9 HTTP/1.1" 500 87 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:51:11 +0000] "POST /api/v1/cart/621589cd05253301a4fda5d9 HTTP/1.1" 200 820 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:04:51:23 +0000] "POST /api/v1/cart/621589cd05253301a4fda5d9 HTTP/1.1" 200 820 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:05:20:19 +0000] "POST /api/v1/cart/621589cd05253301a4fda5d9 HTTP/1.1" 500 78 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:05:22:13 +0000] "POST /api/v1/cart/621589cd05253301a4fda5d9 HTTP/1.1" 200 820 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:05:22:18 +0000] "POST /api/v1/cart/621589cd05253301a4fda5d9 HTTP/1.1" 200 820 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:05:22:30 +0000] "POST /api/v1/cart/621589cd05253301a4fda5d9 HTTP/1.1" 200 820 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:05:22:49 +0000] "POST /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 200 820 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:05:29:49 +0000] "POST /api/v1/cart/remove/6215888305253301a4fda5cd HTTP/1.1" 200 824 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:05:30:12 +0000] "POST /api/v1/cart/remove/621589cd05253301a4fda5d9 HTTP/1.1" 200 824 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:05:30:18 +0000] "POST /api/v1/cart/remove/621589cd05253301a4fda5d9 HTTP/1.1" 200 824 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:05:30:24 +0000] "POST /api/v1/cart/remove/621589cd05253301a4fda5d9 HTTP/1.1" 200 660 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:05:30:31 +0000] "POST /api/v1/cart/remove/621589cd05253301a4fda5d9 HTTP/1.1" 500 57 "-" "PostmanRuntime/7.30.0"
+

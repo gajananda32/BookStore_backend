@@ -1,0 +1,42 @@
+info: ::1 - - [25/Jan/2023:06:41:47 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:43:32 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:44:05 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:45:20 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:45:23 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:45:37 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:46:00 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:46:29 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 200 327 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:46:48 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 200 479 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:48:19 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 200 479 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:52:56 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:55:20 +0000] "GET /api/v1/book/allbook HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:06:56:03 +0000] "POST /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 200 656 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:07:02:53 +0000] "GET /api/v1/book/allbook HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:07:04:00 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:07:04:20 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 278 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:07:04:29 +0000] "POST /api/v1/book/allbook HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:07:04:37 +0000] "GET /api/v1/book/allbook HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:07:05:59 +0000] "GET /api/v1/book/allbook HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:07:09:15 +0000] "POST /api/v1/cart/6215888305253301a4fda5 HTTP/1.1" 500 145 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:07:14:27 +0000] "POST /api/v1/cart/6215895605253301a4fda5d4 HTTP/1.1" 200 656 "-" "PostmanRuntime/7.30.0"
+

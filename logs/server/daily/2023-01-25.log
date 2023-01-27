@@ -1,0 +1,168 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T03:34:05.652Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T03:34:13.506Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T06:40:15.699Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T06:40:18.702Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'eamil')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215895605253301a4fda5d4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T06:41:47.245Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'eamil')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215895605253301a4fda5d4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T06:43:32.757Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T06:43:57.987Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T06:44:00.653Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215895605253301a4fda5d4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T06:44:05.477Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215895605253301a4fda5d4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T06:45:20.419Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215895605253301a4fda5d4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T06:45:23.780Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215895605253301a4fda5d4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T06:45:37.552Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T06:45:53.340Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T06:45:56.275Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215895605253301a4fda5d4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T06:46:00.659Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T06:46:20.487Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T06:46:23.265Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T06:52:45.538Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T06:52:48.264Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215895605253301a4fda5d4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T06:52:56.128Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T06:53:44.631Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T06:53:47.245Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:02:15.233Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:02:18.230Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:02:21.098Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/book/allbook 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-25T07:02:53.757Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (D:\project\bookStore_backend\src\middlewares\/auth.middleware.js:23:26)
+    at tryCatch (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\project\bookStore_backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/book/allbook 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-25T07:04:37.306Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:05:50.791Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:05:53.812Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "6215888305253301a4fda5" (type string) at path "_id" for model "Books"
+    at model.Query.exec (D:\project\bookStore_backend\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project\bookStore_backend\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215888305253301a4fda5 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T07:09:15.504Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:13:40.142Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:13:42.974Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T07:15:32.603Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T07:15:35.352Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:26:31.559Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T11:26:34.412Z"}

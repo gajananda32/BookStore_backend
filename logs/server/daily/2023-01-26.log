@@ -1,0 +1,32 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T12:02:34.600Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T12:02:37.246Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T13:54:03.949Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T13:54:06.941Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T14:13:19.084Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" length must be at least 4 characters long 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T14:21:44.828Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T14:22:44.026Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T14:22:50.586Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T14:22:56.064Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T14:23:28.465Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T14:23:31.546Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is required 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T14:23:49.852Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T14:24:44.157Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T14:24:47.100Z"}
